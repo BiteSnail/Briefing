@@ -1,0 +1,14 @@
+{
+  "name": "briefing",
+  "version": "1.0.0",
+  "description": "briefing application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Park",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^20.1.0"
+  }
+}
