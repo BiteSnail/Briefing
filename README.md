@@ -1,0 +1,2 @@
+# Briefing
+Electron Briefing Application
