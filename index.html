@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Briefing</title>
     <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <link rel="stylesheet" href="./style/index.css">
 </head>
 <body>
     <header>
@@ -11,7 +12,10 @@
     </header>
     <article>
         <h1>일정 관리 프로그램</h1>
-        <script src="./scripts/sevendays.js"></script>
+        <form>
+            1<input type="range" name="days" min="1" max="7">7
+        </form>
+        <script src="./scripts/getDate.js"></script>
     </article>
 </body>
 </html>
